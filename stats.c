@@ -26,7 +26,7 @@
 #define SIZE (40)
 
 // Function to print the array
-   unsigned int print_array(unsigned int array[], unsigned int size) {
+unsigned int print_array(unsigned int array[], unsigned int size) {
     for ( unsigned int i=0;i<size;i++) {
         printf("%d ",array[i]) ;
     }
@@ -35,8 +35,8 @@
 }
 
 // Function to sort the array in descending order
-   unsigned int sort_array(unsigned int array[], unsigned int size) {
-       unsigned int temp = 0 ;
+unsigned int sort_array(unsigned int array[], unsigned int size) {
+    unsigned int temp = 0 ;
     for( unsigned int i=0;i<size-1;i++) {
          unsigned int maximum_index = i ;
         for ( unsigned int j =i+1;j<size;j++) {
@@ -53,8 +53,8 @@
 }
 
 // Function to find the maximum value in the array
-   unsigned int find_maximum(   unsigned int array[], unsigned int size) {
-     unsigned int maximum_val = 0 ;
+unsigned int find_maximum(   unsigned int array[], unsigned int size) {
+    unsigned int maximum_val = 0 ;
     for ( unsigned int i=0;i<size;i++) {
         if (maximum_val<array[i]) {
             maximum_val = array[i] ;
@@ -64,8 +64,8 @@
 }
 
 // Function to find the minimum value in the array
-   unsigned int find_minimum(   unsigned int array[], unsigned int size) {
-     unsigned int minimum_val = array[0] ;
+unsigned int find_minimum(   unsigned int array[], unsigned int size) {
+    unsigned int minimum_val = array[0] ;
     for ( unsigned int i=1;i<size;i++) {
         if (minimum_val>array[i]) {
             minimum_val = array[i] ;
@@ -75,7 +75,7 @@
 }
 
 // Function to find the median value in the array
-   unsigned int find_median(   unsigned int array[], unsigned int size) {
+unsigned int find_median(   unsigned int array[], unsigned int size) {
     if (size%2 == 1) {
         return array[size/2] ;
     }
@@ -85,16 +85,16 @@
 }
 
 // Function to find the mean value in the array
-   unsigned int find_mean(   unsigned int array[], unsigned int size) {
-       unsigned int sum = 0;
-    for ( unsigned int i=0;i<size;i++) {
-        sum = sum + array[i] ;
+unsigned int find_mean(   unsigned int array[], unsigned int size) {
+   unsigned int sum = 0;
+   for ( unsigned int i=0;i<size;i++) {
+    sum = sum + array[i] ;
     }
     return (sum/size) ;
 }
 
 // Function to pr unsigned intthe statistics
- unsigned int print_statistcis(   unsigned int max,   unsigned int min,   unsigned int median_val,   unsigned int mean_val) {
+unsigned int print_statistcis(   unsigned int max,   unsigned int min,   unsigned int median_val,   unsigned int mean_val) {
     printf("Stats \n") ;
     printf("Maximum = %d \n",max) ;
     printf("Minimum = %d \n",min) ;
@@ -112,12 +112,12 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
-  sort_array(test,SIZE) ;
+     sort_array(test,SIZE) ;
      unsigned int max = find_maximum(test,SIZE) ;
      unsigned int min = find_minimum(test,SIZE) ;
      unsigned int median_val = find_median(test,SIZE) ;
      unsigned int mean_val = find_mean(test,SIZE) ;
-  print_statistcis(max,min,median_val,mean_val) ;
+     print_statistcis(max,min,median_val,mean_val) ;
 
 
 }

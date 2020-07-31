@@ -9,31 +9,109 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <sats.h> 
+ * @brief <statistics Calculator>
  *
- * <Add Extended Description Here>
+ * 
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Nisal Kariyawasam>
+ * @date <29/07/2020 >
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+// unsigned int print_array(float array[],int size)
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief <Function to print the array>
  *
- * <Add Extended Description Here>
+ * 
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param <array> <The array to be printed to the screen>
+ * @param <size> <Size of the array>
+ * 
  *
- * @return <Add Return Informaiton here>
+ */
+
+// unsigned int sort_array(unsigned int array[],int size) 
+
+/**
+ * @brief <Function to sort the array in descending order>
+ *
+ * 
+ *
+ * @param <array> <The array to be sorted>
+ * @param <size> <Size of the array>
+ * 
+ *
+ */
+
+// unsigned int find_maximum(unsigned int array[],int size) 
+
+/**
+ * @brief <Function to find the maximum of the array >
+ *
+ * 
+ *
+ * @param <array> <The array to be searched>
+ * @param <size> <Size of the array>
+ * 
+ *
+ */
+
+// unsigned int find_minimum(unsigned int array[],int size) 
+
+/**
+ * @brief <Function to find the minimum of the array >
+ *
+ * 
+ *
+ * @param <array> <The array to be searched>
+ * @param <size> <Size of the array>
+ * 
+ *
+ */
+
+// unsigned int find_median(unsigned int array[],int size)
+
+/**
+ * @brief <Function to find the median of the array >
+ *
+ * 
+ *
+ * @param <array> <The array to be searched>
+ * @param <size> <Size of the array>
+ * 
+ *
+ */
+
+// unsigned int find_mean(unsigned int array[],int size) 
+
+/**
+ * @brief <Function to find the mean of the array >
+ *
+ * 
+ *
+ * @param <array> <The array to be searched>
+ * @param <size> <Size of the array>
+ * 
+ *
+ */
+
+// int statistics(unsigned int max,unsigned int min,unsigned int median_val,unsigned int mean_val)
+
+/**
+ * @brief <Function to print the statistics >
+ *
+ * 
+ *
+ * @param <max> <max_value>
+ * @param <min> <min_value>
+ * @param <median> <median_val>
+ * @param <mean> <mean_val>
+ * 
+ *
  */
 
 

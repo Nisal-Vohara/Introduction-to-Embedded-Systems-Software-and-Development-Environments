@@ -21,7 +21,7 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-// unsigned int print_array(float array[],int size)
+unsigned int print_array(unsigned int array[],unsigned int size) ;
 
 /**
  * @brief <Function to print the array>
@@ -34,7 +34,7 @@
  *
  */
 
-// unsigned int sort_array(unsigned int array[],int size) 
+unsigned int sort_array(unsigned int array[],unsigned int size) ;
 
 /**
  * @brief <Function to sort the array in descending order>
@@ -47,7 +47,7 @@
  *
  */
 
-// unsigned int find_maximum(unsigned int array[],int size) 
+unsigned int find_maximum(unsigned int array[],unsigned int size) ;
 
 /**
  * @brief <Function to find the maximum of the array >
@@ -60,7 +60,7 @@
  *
  */
 
-// unsigned int find_minimum(unsigned int array[],int size) 
+unsigned int find_minimum(unsigned int array[],unsigned int size) ;
 
 /**
  * @brief <Function to find the minimum of the array >
@@ -73,7 +73,7 @@
  *
  */
 
-// unsigned int find_median(unsigned int array[],int size)
+unsigned int find_median(unsigned int array[],unsigned int size) ;
 
 /**
  * @brief <Function to find the median of the array >
@@ -86,7 +86,7 @@
  *
  */
 
-// unsigned int find_mean(unsigned int array[],int size) 
+unsigned int find_mean(unsigned int array[],unsigned int size) ;
 
 /**
  * @brief <Function to find the mean of the array >
@@ -99,7 +99,7 @@
  *
  */
 
-// int statistics(unsigned int max,unsigned int min,unsigned int median_val,unsigned int mean_val)
+unsigned int statistics(unsigned int max,unsigned int min,unsigned int median_val,unsigned int mean_val) ;
 
 /**
  * @brief <Function to print the statistics >
